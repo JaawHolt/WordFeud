@@ -1,5 +1,7 @@
 package gui;
 
+import database.Database;
+
 public class MainClass {
 
 	/**
@@ -8,6 +10,8 @@ public class MainClass {
 	public static void main(String[] args) {
 		//zet hier je naam neer en upload de nieuwe versie naar github
 		System.out.println("Danny");
+		
+		new MyFrame();
 	}
 
 }
